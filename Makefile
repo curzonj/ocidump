@@ -1,8 +1,8 @@
 # full client
-INC = $$ORACLE_HOME/rdbms/public
+#INC = $$ORACLE_HOME/rdbms/public
 
 # instant client
-#INC = /opt/instantclient_11_2/sdk/include
+INC = $$ORACLE_HOME/sdk/include
 
 CC = gcc
 CFLAGS = -pthread -fPIC -I$(INC) -D_GNU_SOURCE -Wall
